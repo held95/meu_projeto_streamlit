@@ -14,7 +14,6 @@ public_url = ngrok.connect(8501)
 print(f"Acesse seu app aqui: {public_url}")
 
 # Rodar o app Streamlit
-!streamlit run app.py &>/dev/null &
 
 from pyngrok import conf
 
