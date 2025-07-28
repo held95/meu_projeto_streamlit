@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1mYhdt9Pw7q4Y-7-kB5I0k0kShyZDB8EZ
 """
 
-!pip install streamlit pyngrok plotly
-
 from pyngrok import ngrok
 
 # Conectar ngrok à porta 8501 (padrão do Streamlit)
